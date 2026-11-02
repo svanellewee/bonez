@@ -2,7 +2,7 @@ import argparse
 import os
 from pathlib import Path
 
-from bare_agent.app import make_app
+from bonez.app import make_app
 
 
 def main() -> None:
@@ -15,7 +15,7 @@ def main() -> None:
     parser.add_argument(
         "--model",
         default=os.getenv(
-            "BARE_AGENT_MODEL", "qwen3.5:4b"
+            "BONEZ_MODEL", "qwen3.5:4b"
         ),
     )
     parser.add_argument(

@@ -2,8 +2,8 @@ import json
 from collections.abc import Awaitable, Callable
 from typing import Any
 
-from bare_agent.commands import run_command
-from bare_agent.workspace import Workspace
+from bonez.commands import run_command
+from bonez.workspace import Workspace
 
 Approval = Callable[[str, str], Awaitable[bool]]
 

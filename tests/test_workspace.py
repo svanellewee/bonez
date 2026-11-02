@@ -1,6 +1,6 @@
 import pytest
 
-from bare_agent.workspace import Workspace, WorkspaceError
+from bonez.workspace import Workspace, WorkspaceError
 
 
 def test_list_and_read(tmp_path):

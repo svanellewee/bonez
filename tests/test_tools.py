@@ -1,7 +1,7 @@
 import pytest
 
-from bare_agent.tools import ToolExecutor
-from bare_agent.workspace import Workspace
+from bonez.tools import ToolExecutor
+from bonez.workspace import Workspace
 
 
 @pytest.mark.asyncio

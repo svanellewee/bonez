@@ -2,8 +2,8 @@ import json
 from collections.abc import Awaitable, Callable
 from typing import Any
 
-from bare_agent.client import OllamaClient
-from bare_agent.tools import ToolExecutor, tool_definitions
+from bonez.client import OllamaClient
+from bonez.tools import ToolExecutor, tool_definitions
 
 Emit = Callable[[str, str], Awaitable[None]]
 

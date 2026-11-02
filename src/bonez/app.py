@@ -6,10 +6,10 @@ from textual.containers import Horizontal, Vertical
 from textual.screen import ModalScreen
 from textual.widgets import Button, Footer, Header, Input, Label, RichLog, Static
 
-from bare_agent.agent import Agent
-from bare_agent.client import OllamaClient
-from bare_agent.tools import ToolExecutor
-from bare_agent.workspace import Workspace
+from bonez.agent import Agent
+from bonez.client import OllamaClient
+from bonez.tools import ToolExecutor
+from bonez.workspace import Workspace
 
 
 class ApprovalScreen(ModalScreen[bool]):
